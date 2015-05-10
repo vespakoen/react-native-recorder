@@ -19,7 +19,8 @@ RCT_EXPORT_MODULE();
     // Setup audio session
     AVAudioSession *session = [AVAudioSession sharedInstance];
     [session setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
-    
+    NSError *setOverrideError;
+    [session overrideOutputAudioPort:AVAudioSessionPortOverrideSpeaker error:&setOverrideError];
     return session;
 }
 
