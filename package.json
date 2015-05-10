@@ -1,11 +1,32 @@
 {
   "name": "react-native-recorder",
   "version": "0.1.0",
-  "description": "",
+  "description": "This is a work in progress! react-native module for recording the microphone on IOS",
   "main": "Recorder.ios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "488ffb6f6dd10986a4003729259fd5886bb50c77",
+  "_id": "react-native-recorder@0.1.0",
+  "_shasum": "7394b0e08760a9871612404da74042be6621e9d0",
+  "_from": "react-native-recorder@",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "vespakoen",
+    "email": "k.schmeets@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "vespakoen",
+      "email": "k.schmeets@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "7394b0e08760a9871612404da74042be6621e9d0",
+    "tarball": "http://registry.npmjs.org/react-native-recorder/-/react-native-recorder-0.1.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/react-native-recorder/-/react-native-recorder-0.1.0.tgz"
 }
